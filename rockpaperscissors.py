@@ -6,7 +6,7 @@ user_input = str(input('Type you guess \n'))
 guessed = False
 
 
-def nahoda(var):
+def random_def(var):
     x = random.choice(list)
     print(x)
     if x == var:
@@ -17,4 +17,4 @@ def nahoda(var):
         return print(f'Try again :(, the word was {x}'), guessed
 
 
-print(nahoda(user_input))
+print(random_def(user_input))
