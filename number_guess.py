@@ -16,7 +16,9 @@ while True:
         global guessed
         global tries
         x = random.randint(range1, range2)
-        if guess_user > range2 and guess_user < range1:
+
+
+        if guess_user > range2 or guess_user < range1:
             print(f'Type int value between {range1} and {range2}.')
         else:
             if user_input == x:
@@ -33,3 +35,4 @@ while True:
 
 
     print(random_number(list_range[0], list_range[1], user_input))
+
